@@ -1,0 +1,53 @@
+<!-- Lab 3 - To create an HTML form-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3</title>
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+    <form action="">
+      <div>
+        <label for="firstName">First Name: </label>
+        <input type="text" name="firstName" id="firstName" />
+      </div>
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" />
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="0" />
+      </div>
+      <div>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" />
+      </div>
+      <div>
+        <label for="semester">Semester:</label>
+        <select name="semester" id="semester">
+          <option value="1">1st</option>
+          <option value="2">2nd</option>
+          <option value="3">3rd</option>
+          <option value="4">4th</option>
+          <option value="5">5th</option>
+          <option value="6">6th</option>
+          <option value="7">7th</option>
+          <option value="8">8th</option>
+        </select>
+      </div>
+      <div>
+        <label for="confirm">Confirm</label>
+        <input type="checkbox" name="confirm" id="confirm" />
+      </div>
+      <div>
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>

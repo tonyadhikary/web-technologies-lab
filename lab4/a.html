@@ -1,0 +1,41 @@
+<!-- Lab 4 (a) - TO find the factorial of the entered number and display it  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factorial of Number</title>
+  </head>
+  <body>
+    <h1>Factorial of a Number</h1>
+    <label for="number">Enter a number: </label>
+    <input type="number" name="number" id="number" required min="0" max="20" />
+
+    <button>Click Here!!</button>
+    <h2></h2>
+
+    <script>
+      const button = document.querySelector("button");
+      const input = document.getElementById("number");
+      const h2 = document.querySelector("h2");
+
+      const factorial = (num) => {
+        if (num === 0 || num === 1) {
+          return 1;
+        } else {
+          return num * factorial(num - 1);
+        }
+      };
+
+      button.addEventListener("click", (e) => {
+        e.preventDefault();
+        let num = input.value;
+
+        fact = factorial(num);
+
+        h2.innerHTML = `Factorial of ${num} is ${fact}`;
+      });
+    </script>
+  </body>
+</html>
