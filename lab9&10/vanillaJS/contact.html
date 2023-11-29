@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <div>
+          <li><a class="logo" href="index.html">Jayanta Adhikary</a></li>
+        </div>
+        <div class="menu">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="contact">
+      <h1>Contact Us</h1>
+      <form action="" method="POST">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea
+          name="message"
+          id="message"
+          rows="10"
+          cols="72"
+          placeholder="Message"
+          required
+        ></textarea>
+        <input type="submit" value="Send Message" />
+      </form>
+    </div>
+  </body>
+</html>
