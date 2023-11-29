@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XML & XSLT</title>
+    <style>
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      p {
+        margin-bottom: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>XML & XSLT Example</h1>
+    <p>The following content is generated from an XML file:</p>
+    <iframe
+      src="index.xml"
+      xslt="index.xsl"
+      frameborder="0"
+      scrolling="no"
+    ></iframe>
+  </body>
+</html>
