@@ -1,5 +1,7 @@
 # Web Technologies and Web Services Lab
 
+This is my fork of my brother's lab classes.
+
 All of my work for lab classes of the subject "Web Technologies and Web Services" at the Department of Information Technology, Sikkim Manipal Institute of Technology, Sikkim, India.
 
 Lab course code: IT1761
